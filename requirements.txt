@@ -14,6 +14,6 @@ python-telegram-bot==20.5
 requests==2.31.0
 six==1.16.0
 virtualenv==20.27.1
-virtualenv-clone==20.27.1
+virtualenv-clone==20.24.7
 Telethon==1.37.0
 vertexai==1.71.1
