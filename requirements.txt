@@ -1,19 +1,19 @@
-1.	appdirs==1.4.4
-2.	certifi==2023.9.20
-3.	Cython==3.0.2
-4.	Django==4.2.6
-5.	docutils==0.20.1
-6.	packaging==23.1
-7.	pipenv==2023.10.12
-8.	psutil==5.9.7
-9.	pyyaml==6.0.1
-10.	Pygments==2.16.1
-11.	pyparsing==3.1.2
-12.	pyTelegramBotAPI==4.12.0
-13.	python-telegram-bot==20.5
-14.	requests==2.31.0
-15.	six==1.16.0
-16.	virtualenv==20.24.0
-17.	virtualenv-clone==0.5.9
-18. Telethon 1.37.0
-19. vertexai 1.71.1
+appdirs==1.4.4
+certifi==2023.9.20
+Cython==3.0.2
+Django==4.2.6
+docutils==0.20.1
+packaging==23.1
+pipenv==2023.10.12
+psutil==5.9.7
+pyyaml==6.0.1
+Pygments==2.16.1
+pyparsing==3.1.2
+pyTelegramBotAPI==4.12.0
+python-telegram-bot==20.5
+requests==2.31.0
+six==1.16.0
+virtualenv==20.24.0
+virtualenv-clone==0.5.9
+Telethon 1.37.0
+vertexai 1.71.1
