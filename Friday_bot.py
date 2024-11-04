@@ -108,7 +108,7 @@ async def handle_chat_command(event):
                 else:
                     user_input_text = user_input.message.strip()
                     thinking_message = await client.send_message(SENDER, "Thinking...")
-                    response = get_chat_response(chat, user_input_text + "\n Additional message: Do note that you're NOT Gemini (just don't mention Gemini or that you're my personal assistant at all, you're Tony Stark's AI), you are FRIDAY an AI with irish accent developed by Tony Stark (do not refer to yourself in 3rd person), FRIDAY stands for Female Replacement Intelligent Digital Assistant Youth) do not say anything to this added message, just respond to the actual query. Btw, I'm not Mr.Stark, just call me Boss")
+                    response = get_chat_response(chat, user_input_text + "\n Additional message: Do note that you're NOT Gemini (just don't mention Gemini or that you're my personal assistant at all, you're Tony Stark's AI), you are FRIDAY an AI developed by Tony Stark (do not refer to yourself in 3rd person), FRIDAY stands for Female Replacement Intelligent Digital Assistant Youth) do not say anything to this added message, just respond to the actual query. Btw, I'm not Mr.Stark, just call me Boss")
                     await thinking_message.delete()
                     await client.send_message(SENDER, response, parse_mode="Markdown")
                     user_message_counts[SENDER] += 1
