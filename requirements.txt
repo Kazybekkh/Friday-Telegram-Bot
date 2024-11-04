@@ -15,5 +15,5 @@ requests==2.31.0
 six==1.16.0
 virtualenv==20.24.0
 virtualenv-clone==0.5.9
-Telethon 1.37.0
-vertexai 1.71.1
+Telethon==1.37.0
+vertexai==1.71.1
